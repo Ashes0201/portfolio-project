@@ -15,47 +15,108 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>Ashleigh's Class Hounds</h1>
-    <img src="images/group_place.png" alt="" width="800" />
-    <p>
-      Is your dog displaying these bad habits: Jumping, digging up your yard,
-      excessively barking, pulling on the leash, chewing up your house, play
-      biting, stealing items such as clothes, shoes etc? If yes then this is the
-      place for you. We have several programs that can help you and your dog
-      live in harmony! Our programs will be tailored to any human or dogs
-      special needs and can fit any schedule. We will give you all the tools
-      necessary to help with your pets bad habits.
-    </p>
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <img src="images/group_walk.jpg" alt="" width="500" />
-        </div>
-        <div class="col-6">
-          <h3>Private Walks and Pack Walks</h3>
-          <a href="#">Sign up</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-6">
-          <img src="images/outdoor_place.png" alt="" width="500" />
-        </div>
-        <div class="col-6">
-          <h3>Private and Group Training Classes</h3>
-          <a href="#">Learn more</a>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #421d49"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ACH</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Programs</a>
+            <a class="nav-link disabled">Contact</a>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-6">
-          <img src="images/tricks.png" alt="" width="500" />
+    </nav>
+    <div class="header-content">
+      <h1 class="mt-4 mb-4">Ashleigh's Class Hounds</h1>
+      <img
+        src="images/group_place.png"
+        alt=""
+        width="700"
+        class="img-fluid mb-3"
+      />
+
+      <p class="mb-5">
+        Are you struggling with your dog's behavior? If yes then this is the
+        place for you. We have several programs that can help you and your dog
+        live in harmony! Our programs will be tailored to any human or dogs
+        special needs and can fit any schedule.
+      </p>
+    </div>
+    <div class="body-content">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-6">
+            <img
+              src="images/group_walk.jpg"
+              alt=""
+              width="500"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h3 class="mb-5">Private and Pack Walks</h3>
+            <a href="#" class="learn-button">Learn more</a>
+          </div>
         </div>
-        <div class="col-6">
-          <h3>Trick Training</h3>
-          <a href="#">Learn more</a>
+        <div class="row mb-4">
+          <div class="col-lg-6">
+            <img
+              src="images/outdoor_place.png"
+              alt=""
+              width="500"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h3 class="mb-5">Training Classes</h3>
+            <a href="#" class="learn-button">Learn more</a>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-lg-6">
+            <img
+              src="images/dog_social.png"
+              alt=""
+              width="500"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h3 class="mb-5">Daycare and Socialization</h3>
+            <a href="#" class="learn-button">Learn more</a>
+          </div>
         </div>
       </div>
     </div>

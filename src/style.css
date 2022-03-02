@@ -1,1 +1,59 @@
+:root {
+  --primary-color: #421d49;
+  --primary-font: "Courier Prime", monospace;
+  --secondary-color: #e9bff2;
+}
 
+h3 {
+  font-family: "Merienda", cursive;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header-content img {
+  border-radius: 10px;
+  border-color: var(--primary-color);
+  border-style: solid;
+}
+
+.header-content h1 {
+  font-family: "Merienda", cursive;
+  font-size: 65px;
+}
+
+.header-content p {
+  margin: 0 100px;
+  font-size: 23px;
+  font-family: var(--primary-font);
+}
+
+.learn-button {
+  background-color: #e9bff2;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.body-content img {
+  border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+  .body-content {
+    text-align: center;
+  }
+  .header-content p {
+    margin: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-content h1 {
+    font-size: 25px;
+  }
+  .header-content p {
+    font-size: 15px;
+  }
+}
