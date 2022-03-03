@@ -4,8 +4,17 @@
   --secondary-color: #e9bff2;
 }
 
+h1 {
+  font-family: "Merienda", cursive;
+  font-size: 65px;
+}
+
 h3 {
   font-family: "Merienda", cursive;
+}
+p,
+h2 {
+  font-family: var(--primary-font);
 }
 
 .header-content {
@@ -18,15 +27,9 @@ h3 {
   border-style: solid;
 }
 
-.header-content h1 {
-  font-family: "Merienda", cursive;
-  font-size: 65px;
-}
-
 .header-content p {
   margin: 0 100px;
   font-size: 23px;
-  font-family: var(--primary-font);
 }
 
 .learn-button {
@@ -36,7 +39,14 @@ h3 {
   text-decoration: none;
   color: var(--primary-color);
 }
+.learn-button:hover {
+  color: white;
+}
 .body-content img {
+  border-radius: 5px;
+}
+
+.profile-pic {
   border-radius: 5px;
 }
 
