@@ -49,6 +49,9 @@ h2 {
 .profile-pic {
   border-radius: 5px;
 }
+.about-content h2 {
+  font-weight: bold;
+}
 
 @media (max-width: 900px) {
   .body-content {
@@ -56,6 +59,9 @@ h2 {
   }
   .header-content p {
     margin: 0;
+  }
+  .about-content img {
+    margin: 20px;
   }
 }
 
@@ -65,5 +71,8 @@ h2 {
   }
   .header-content p {
     font-size: 15px;
+  }
+  .about-content {
+    text-align: center;
   }
 }
