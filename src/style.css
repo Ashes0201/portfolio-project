@@ -5,16 +5,34 @@
 }
 
 h1 {
-  font-family: "Merienda", cursive;
-  font-size: 45px;
+  font-family: "Gochi Hand", cursive;
+  font-size: 60px;
+  color: var(--primary-color);
 }
 
 h3 {
-  font-family: "Merienda", cursive;
+  font-family: "Gochi Hand", cursive;
+  font-size: 35px;
+  color: var(--primary-color);
 }
+
 p,
 h2 {
   font-family: var(--primary-font);
+}
+
+footer .email-link {
+  font-size: 30px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 10px 20px;
+  border-radius: 60px;
 }
 
 .header-content {
@@ -38,6 +56,7 @@ h2 {
   border-radius: 5px;
   text-decoration: none;
   color: var(--primary-color);
+  font-size: 20px;
 }
 .learn-button:hover {
   color: white;
@@ -51,6 +70,14 @@ h2 {
 }
 .about-content h2 {
   font-weight: bold;
+}
+
+.social-links {
+  font-size: 30px;
+}
+
+.about-info {
+  font-size: 20px;
 }
 
 @media (max-width: 900px) {
@@ -67,10 +94,10 @@ h2 {
 
 @media (max-width: 600px) {
   .header-content h1 {
-    font-size: 25px;
+    font-size: 40px;
   }
   .about-content h1 {
-    font-size: 25px;
+    font-size: 40px;
   }
   .header-content p {
     font-size: 15px;
